@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="calc.js" defer></script>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+<div class="calc-grid">
+
+    <input id="output" readonly>
+
+    <button class="space1" id="clearAll" onclick="clearAll()">AC</button>
+    <button  onclick="displayValue('/')">÷</button>
+    <button  onclick="displayValue('1')">1</button>
+    <button  onclick="displayValue('2')">2</button>
+    <button  onclick="displayValue('3')">3</button>
+    <button  onclick="displayValue('*')">*</button>
+    <button  onclick="displayValue('4')">4</button>
+    <button  onclick="displayValue('5')">5</button>
+    <button  onclick="displayValue('6')">6</button>
+    <button  onclick="displayValue('+')">+</button>
+    <button  onclick="displayValue('7')">7</button>
+    <button  onclick="displayValue('8')">8</button>
+    <button  onclick="displayValue('9')">9</button>
+    <button  onclick="displayValue('-')">-</button>
+    <button  onclick="displayValue('.')">.</button>
+    <button  onclick="displayValue('0')">0</button>
+    <button class="space" onclick="calculate()" >=</button>
+
+    </div>
+
+</body>
+</html>
